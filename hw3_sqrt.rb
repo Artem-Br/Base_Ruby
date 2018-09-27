@@ -23,13 +23,14 @@ end
 
 if a == b && b == c
 	puts "Треугольник равносторонний"
-	elsif x**2 == y**2 + z**2
-		elsif y == z
+	else 
+		if x.to_f**2 == y.to_f**2 + z.to_f**2
+			if y == z
 				puts "Треугольник равнобедренный"
-			else
+				else
 				puts "Треугольник прямоугольный"
 			end
-		end
-	else
+		else
 		puts "Треугольник не прямоугольный"
+		end	
 end
